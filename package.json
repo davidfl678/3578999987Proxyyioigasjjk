@@ -1,0 +1,15 @@
+{
+  "name": "corsly",
+  "version": "1.0.0",
+  "description": "Corsly - Production-ready Public CORS Proxy with IP rate limiting and Cloudflare KV",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787 --ip 0.0.0.0",
+    "deploy": "wrangler deploy",
+    "test": "node test-proxy.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.86.0"
+  }
+}

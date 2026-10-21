@@ -1,0 +1,7 @@
+name = "corsly"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "fa973f0ae1114355a327b3ecf2b6006a"
